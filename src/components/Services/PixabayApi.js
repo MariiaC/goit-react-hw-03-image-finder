@@ -9,4 +9,4 @@ const pixabayKey = '29338502-d9e7525ed9dc6a9ae74eb85c1';
 
 }
 
-export default {fetchImagesViaQuery}
+export default fetchImagesViaQuery
