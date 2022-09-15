@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import { ImageGallery } from './ImageGallery';
 //import { ImageGalleryItem } from './ImageGallery';
@@ -9,7 +8,7 @@ import { Modal } from './Modal';
  import { Loader } from './Loader';
 
 import s from './App.module.css';
-import PixabayApi from './Services/PixabayApi'
+import * as PixabayApi from './Services/PixabayApi'
 
 export class App extends Component{
   state = {
